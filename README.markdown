@@ -1,4 +1,4 @@
 SocketPlay
 ===
 
-Experimenting with web sockets and Rails 5.
+Experimenting with WebSocket support in Rails 5.
