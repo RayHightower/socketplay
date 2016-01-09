@@ -3,6 +3,10 @@ SocketPlay
 
 Experimenting with WebSocket support (via Action Cable) in Rails 5.
 
+What would it be like to run a Rails app w/WebSocket support on [Parallella](/blog/2015/08/22/madison-ruby-and-parallella/)?
+
+Application Details:
+
 * Ruby version: 2.2.4
 
 * System dependencies
