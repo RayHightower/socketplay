@@ -1,27 +1,16 @@
 SocketPlay
 ===
 
-This app will keep track of single board computers and their capabilities.
-
-Experimenting with WebSocket support (via Action Cable) in Rails 5.
+Experimenting with WebSocket support (via Action Cable) in Rails 5. This app will keep track of single board computers and their capabilities.
 
 What would it be like to run a Rails app w/WebSocket support on [Parallella](/blog/2015/08/22/madison-ruby-and-parallella/)?
+
+* The two ARM cores run the Rails app.
+* Tasks that can benefit from parallelism run on the 16-core epiphany chip.
 
 
 Application Details:
 
-* Ruby version: 2.2.4
+* Ruby version: 2.3.0
+* Rails 5.0.0.beta1
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
