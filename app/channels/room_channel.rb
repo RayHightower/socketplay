@@ -9,6 +9,9 @@ class RoomChannel < ApplicationCable::Channel
   end
 
   def speak(data)
-    ActionCable.server.broadcast 'room_channel', message: data['message']
+    # Next line was fine while building the app (alert dialog box in the browser).
+    # ActionCable.server.broadcast 'room_channel', message: data['message']
+    # Better way: Create a message that gets displayed within the application.
+    Message.create! content: data['message'] # Create a message in the database.
   end
 end
