@@ -21,7 +21,7 @@ Application Details:
 
 1. Build your Rails environment as described above.
 
-2. Don't forget to install [Redis](http://redis.org) too!
+2. Don't forget to install [Redis](http://redis.io) too!
 
 ### How to Launch the SocktPlay App
 
