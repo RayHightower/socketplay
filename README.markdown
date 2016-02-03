@@ -8,6 +8,7 @@ What would it be like to run a Rails app w/WebSocket support on [Parallella](htt
 * The two ARM cores run the Rails app.
 * Tasks that can benefit from parallelism run on the 16-core epiphany chip.
 
+2016-Feb-02: The identical Socketplay app runs on both OS X and Ubuntu 14 running in a Parallels VM. Had to scale some hurdles (and gotchas) while resolving gem dependencies on Ubuntu. But the app installs on both platforms with zero changes to the app itself.
 
 Application Details:
 
