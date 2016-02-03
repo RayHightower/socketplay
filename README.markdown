@@ -29,7 +29,7 @@ Application Details:
 
 2. In a separate terminal window, navigate to the `SocketPlay` directory and launch the app with `$ rails server`.
 
-3. Launch a two web browsers. Navigate both browsers to [http://localhost:3000](http://localhost:3000) (assuming that you launched the Rails app with the default port number.
+3. Launch a two web browsers. Navigate both browsers to [http://localhost:3000](http://localhost:3000) (assuming that you launched the Rails app with the default port number, 3000).
 
 4. Have a conversation between the two browsers, and have fun!
 
