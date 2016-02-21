@@ -40,6 +40,7 @@ group :development do
   # gem 'spring' # Does spring interfere with Rails? ~RTH 2016Feb21
 end
 
+gem 'tzinfo' # resolve time zone issue on Parallella
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'tzinfo' # resolve time zone issue on Parallella
